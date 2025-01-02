@@ -28,5 +28,10 @@
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.17",
     "vite": "^6.0.5"
-  }
+  },
+  "description": "Hi, I'm Jack Gimre, a Backend Developer with a specialization in the MERN stack. I'm eager to apply my creativity, passion, and dedication to work and internship opportunities.",
+  "main": "eslint.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
 }
