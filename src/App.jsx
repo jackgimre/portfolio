@@ -1,13 +1,14 @@
 import React from 'react'
-import Navbar from './components/Navbar'
 import Header from './components/Header'
 import AboutMe from './components/AboutMe'
+import Projects from './components/Projects'
 
 const App = () => {
   return (
     <>
       <Header></Header>
       <AboutMe></AboutMe>
+      <Projects></Projects>
     </>
   )
 }
