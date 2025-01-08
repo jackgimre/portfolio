@@ -5,9 +5,6 @@ export default {
 		extend: {
 			fontFamily: {
 				sans: ['Inter', 'sans-serif']
-			},
-			gridTemplateColumns: {
-				'70/30': '70% 28%'
 			}
 		}
 	},
