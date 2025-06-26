@@ -24,9 +24,8 @@ const Projects = () => {
     <div className='bg-[#f1f1f1] h-auto flex p-4 flex-col px-[10%] items-center'>
         <h1 className='text-[#212121] text-[25pt] font-bold pt-4 text-center mx-auto mb-8'>My Work</h1>
         <Project images={lxrImages} title='Long X Ranch Cowboys' description={lxrDesc} url='https://longxranchcowboys.com' github='https://github.com/BanZ-Development/SaveTheCowBoy' stack={lxrStack}></Project>
-        <Project images={nwpImages} title='Nate Wafe Photos' description={nwpDesc} stack={nwpStack}></Project>
     </div>
   )
 }
 
-export default Projects
+export default Projects;
