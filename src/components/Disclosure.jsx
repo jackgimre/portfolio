@@ -5,7 +5,7 @@ export default function Disclosure({ title, content }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="w-full max-w-md mx-auto border rounded-lg margin-bottom-4 shadow-lg bg-white">
+    <div className="lg:w-[100%] w-[90%] mx-auto border rounded-lg mb-4 shadow-lg bg-white">
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="flex w-full items-center justify-between px-4 py-3 text-left text-sm font-medium text-gray-900 hover:bg-gray-100 transition"
