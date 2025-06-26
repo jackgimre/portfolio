@@ -9,7 +9,7 @@ const Project = ({images, title, description, url, stack, github}) => {
         <ImageCarousel images={images} className='w-[100%] h-[60%]'></ImageCarousel>
         <div className='flex flex-col px-[1%]'>
             <a href={url} target='_blank' className='text-blue-500 underline hover:no-underline'><h1 className='text-center text-[25pt]'>{title}</h1></a>
-            <div className='flex flex-col font-normal lg:justify-around pt-2 mx-[10%]'>
+            <div className='flex flex-row font-normal lg:justify-around pt-2 mx-[10%]'>
                 <p className='pb-4'>{description}</p>
                 <ul className='list-disc pl-10'>
                     <li><a href={github} target='_blank' className='text-blue-500 underline hover:no-underline'>GitHub</a></li>

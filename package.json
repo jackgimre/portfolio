@@ -16,6 +16,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
     "autoprefixer": "^10.4.20",
+    "lucide-react": "^0.523.0",
     "prop-types": "^15.8.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -41,5 +42,13 @@
   "main": "eslint.config.js",
   "keywords": [],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackgimre/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jackgimre/portfolio/issues"
+  },
+  "homepage": "https://github.com/jackgimre/portfolio#readme"
 }
