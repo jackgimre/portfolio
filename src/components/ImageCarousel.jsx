@@ -17,9 +17,9 @@ const ImageCarousel = ({images}) => {
         );
     };
     return (
-        <div className="relative">
+        <div className="relative flex items-center justify-center w-full h-[500px] lg:h-[500px] sm:h-[300px] overflow-hidden">
           <img
-            className="w-full lg:h-[500px] sm:h-[300px] object-cover rounded-tl-[10px] rounded-tr-[10px]"
+            className="h-full lg:h-[500px] sm:h-[300px] contain rounded-tl-[10px] rounded-tr-[10px]"
             src={images[currentIndex]}
             alt={`carousel ${currentIndex + 1}`}
           />
