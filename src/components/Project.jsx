@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 const Project = ({ images, title, description, url, stack, github }) => {
   return (
-    <div className='lg:w-[70%] w-full bg-white text-black text-[15pt] mb-4 flex flex-col justify-center rounded-[10px] h-fitcontent pb-16 border-4 border-white shadow-2xl'>
+    <div className='lg:w-[85vw] w-full bg-white text-black text-[15pt] mb-4 flex flex-col justify-center rounded-[10px] h-fitcontent pb-16 border-4 border-white shadow-2xl'>
       <ImageCarousel images={images} className='w-full h-[60%] self-center' />
 
       <div className='flex flex-col px-[1%] justify-center items-center'>

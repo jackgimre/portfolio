@@ -6,7 +6,7 @@ import { faEnvelope, faX } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
   return (
-      <div className='flex flex-col items-center justify-center bg-[#22223b]'>
+      <div className='flex flex-col items-center justify-center bg-[#22223b] py-[10vh]'>
           <div className='my-4'>
             <img className='w-56 h-56 mx-auto rounded-full shadow-2xl object-cover border-2 border-white' src={jackgimre} alt="Description" />
             <h1 className='font-bold text-[25pt] text-center text-white'>Jack Gimre</h1>
